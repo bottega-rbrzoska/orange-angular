@@ -1,8 +1,12 @@
 <app-navigation></app-navigation>
 <router-outlet></router-outlet>
-<app-test [myCounter]="initialValue"
+<app-test [myCounter]="initialValue" [ngClass]="{ 'active': isActive}"
         (isIncremented)="testIncrementedHandler($event)"></app-test>
 <app-test [myCounter]="initialValue * 10"
         (isIncremented)="testIncrementedHandler($event)"></app-test>
 <app-test [myCounter]="initialValue * 100"
+          *ngIf="isActive"
         (isIncremented)="testIncrementedHandler($event)"></app-test>
+<button (click)="isActive = !isActive">Toggle active</button>
+===============
+<div *ngFor="let el of arr; let isOdd = odd" [ngClass]="{odd: isOdd}" >{{el.id}}, {{el.name}}</div>

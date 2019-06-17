@@ -1,4 +1,4 @@
-<div>{{product.name}} {{product.price}}
+<div>{{product.name}} {{product.price | currency:'EUR'}}
     <button class="btn btn-warning"
             (click)="deleteProduct()">Delete</button>
 </div>

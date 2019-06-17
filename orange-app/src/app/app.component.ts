@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'orange-app';
+  initialValue = 1;
+  testIncrementedHandler(counterValue) {
+    alert('Counter: ' + counterValue)
+  }
 }

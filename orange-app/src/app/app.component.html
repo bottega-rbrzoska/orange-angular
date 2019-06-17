@@ -1,2 +1,8 @@
 <app-navigation></app-navigation>
 <router-outlet></router-outlet>
+<app-test [myCounter]="initialValue"
+        (isIncremented)="testIncrementedHandler($event)"></app-test>
+<app-test [myCounter]="initialValue * 10"
+        (isIncremented)="testIncrementedHandler($event)"></app-test>
+<app-test [myCounter]="initialValue * 100"
+        (isIncremented)="testIncrementedHandler($event)"></app-test>

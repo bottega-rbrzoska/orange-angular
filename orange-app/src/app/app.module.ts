@@ -8,6 +8,9 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProductsListComponent } from './products-list/products-list.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { TestComponent } from './test/test.component';
+import { TestDirective } from './test.directive';
+import { ProductItemComponent } from './product-item/product-item.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     NavigationComponent,
     ContactComponent,
     ProductsListComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    TestComponent,
+    TestDirective,
+    ProductItemComponent
   ],
   imports: [
     BrowserModule,

@@ -4,4 +4,6 @@
         <a routerLink="/products" class="nav-item nav-link" > Products </a>
         <a routerLink="/contact" class="nav-item nav-link" > Contact </a>
     </div>
+    <div>Show test container: <input type="checkbox" #testCheckbox
+                                     (change)="toggleShowTest(testCheckbox.value)"></div>
 </nav>

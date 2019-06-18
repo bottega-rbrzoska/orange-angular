@@ -12,6 +12,8 @@ import { TestComponent } from './test/test.component';
 import { TestDirective } from './test.directive';
 import { ProductItemComponent } from './product-item/product-item.component';
 import { HighlightDirective } from './highlight.directive';
+import { TestService } from './test.service';
+import { ProductService } from './product.service';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,7 @@ import { HighlightDirective } from './highlight.directive';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [TestService, ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

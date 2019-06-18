@@ -1,6 +1,7 @@
 <app-navigation></app-navigation>
 <router-outlet></router-outlet>
-<div class="card">
+{{showTestContainer}}
+<div class="card" *ngIf="showTestContainer">
     <div class="card-header" [appTest] #appDirective="appTest">Tests</div>
     <div class="card-body">
         <button (click)="appDirective.changeBackground('blue')">Change background to blue</button>

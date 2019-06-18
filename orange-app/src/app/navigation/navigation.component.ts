@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { TestService } from '../test.service';
 
 @Component({
   selector: 'app-navigation',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationComponent implements OnInit {
 
-  constructor() { }
+  constructor(private testService: TestService) { }
 
   ngOnInit() {
   }
-
+  toggleShowTest(val) {
+    this.testService.setShowTest(val)
+  }
 }

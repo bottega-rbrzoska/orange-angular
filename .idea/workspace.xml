@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="04189964-0390-4dd3-9abe-3ed3bee5812c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orange-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/orange-app/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orange-app/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/orange-app/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orange-app/src/app/navigation/navigation.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/orange-app/src/app/navigation/navigation.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orange-app/src/app/products-list/products-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/orange-app/src/app/products-list/products-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orange-app/src/app/test.directive.ts" beforeDir="false" afterPath="$PROJECT_DIR$/orange-app/src/app/test.directive.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,30 +17,9 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/orange-app/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="655">
-              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/orange-app/node_modules/@angular/platform-browser/platform-browser.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orange-app/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="240">
               <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
@@ -49,11 +30,25 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/orange-app/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="48">
+              <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orange-app/src/app/app.component.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orange-app/src/app/navigation/navigation.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -71,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orange-app/src/app/test/test.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+            <state relative-caret-position="144">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -80,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orange-app/src/app/products-list/products-list.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+            <state relative-caret-position="1584">
+              <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -92,26 +87,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orange-app/src/app/products-list/products-list.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            <state relative-caret-position="24">
+              <caret line="1" column="66" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orange-app/src/app/navigation/navigation.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orange-app/src/app/test.directive.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="19" column="87" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="87" />
+            <state relative-caret-position="672">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -119,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orange-app/src/app/product-item/product-item.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            <state relative-caret-position="231">
+              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
               <folding>
                 <element signature="e#0#79#0" expanded="true" />
               </folding>
@@ -131,8 +122,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orange-app/src/app/models/product.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="336">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -141,7 +132,7 @@
         <entry file="file://$PROJECT_DIR$/orange-app/src/app/product-item/product-item.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -155,30 +146,30 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/orange-app/src/app/app.component.css" />
-        <option value="$PROJECT_DIR$/orange-app/src/app/app.component.scss" />
         <option value="$PROJECT_DIR$/orange-app/angular.json" />
         <option value="$PROJECT_DIR$/orange-app/src/index.html" />
         <option value="$PROJECT_DIR$/orange-app/src/app/test/test.component.html" />
         <option value="$PROJECT_DIR$/orange-app/src/app/table/table.component.html" />
         <option value="$PROJECT_DIR$/orange-app/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/orange-app/src/app/navigation/navigation.component.html" />
         <option value="$PROJECT_DIR$/orange-app/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/orange-app/src/styles.scss" />
         <option value="$PROJECT_DIR$/orange-app/src/app/test/test.component.ts" />
         <option value="$PROJECT_DIR$/orange-app/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/orange-app/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/orange-app/src/app/products-list/products-list.component.ts" />
         <option value="$PROJECT_DIR$/orange-app/src/app/models/product.ts" />
         <option value="$PROJECT_DIR$/orange-app/src/app/product-item/product-item.component.ts" />
         <option value="$PROJECT_DIR$/orange-app/src/app/product-item/product-item.component.html" />
         <option value="$PROJECT_DIR$/orange-app/src/app/test.directive.ts" />
+        <option value="$PROJECT_DIR$/orange-app/src/app/navigation/navigation.component.html" />
+        <option value="$PROJECT_DIR$/orange-app/src/app/app.component.scss" />
+        <option value="$PROJECT_DIR$/orange-app/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/orange-app/src/app/products-list/products-list.component.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-1" />
-    <option name="width" value="1920" />
+    <option name="x" value="2310" />
+    <option name="width" value="1440" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
@@ -269,22 +260,6 @@
               <item name="orange-angular" type="462c0819:PsiDirectoryNode" />
               <item name="orange-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="product-item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orange-angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orange-angular" type="462c0819:PsiDirectoryNode" />
-              <item name="orange-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="products-list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="orange-angular" type="b2602c69:ProjectViewProjectNode" />
-              <item name="orange-angular" type="462c0819:PsiDirectoryNode" />
-              <item name="orange-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -332,24 +307,20 @@
       <option name="presentableId" value="Default" />
       <updated>1560753574209</updated>
       <workItem from="1560753575314" duration="22414000" />
+      <workItem from="1560829057653" duration="1292000" />
+      <workItem from="1560831868544" duration="2375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22414000" />
+    <option name="totallyTimeSpent" value="26081000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1920" height="1040" extended-state="6" />
-    <editor active="true" />
+    <frame x="1920" y="-1" width="1920" height="1080" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2509264" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19724284" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="TypeScript" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32968238" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32968238" />
@@ -357,6 +328,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3156146" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -370,7 +346,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -426,13 +404,6 @@
     <entry file="file://$PROJECT_DIR$/orange-app/tsconfig.app.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/app.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/orange-app/src/app/app.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-936">
@@ -463,47 +434,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/test2/test2.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/test2/test2.component.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/my-home/my-home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/test2/test2.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/table/table.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/table/table.component.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/table/table.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/test2/test2.component.ts" />
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/test2/test2.component.scss" />
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/my-home/my-home.component.ts" />
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/test2/test2.component.html" />
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/table/table.component.ts" />
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/table/table.component.scss" />
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/table/table.component.html" />
     <entry file="file://$PROJECT_DIR$/orange-app/src/app/home/home.component.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -517,13 +454,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/test/test.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/test/test.component.html" />
     <entry file="file://$PROJECT_DIR$/orange-app/node_modules/@angular/core/core.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -560,7 +491,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/orange-app/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
+        <state>
           <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
@@ -570,93 +501,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/orange-app/node_modules/@angular/platform-browser/platform-browser.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
+        <state>
           <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/navigation/navigation.component.html">
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="240">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/orange-app/src/app/test/test.component.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/test/test.component.ts">
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/navigation/navigation.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        <state relative-caret-position="96">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/product-item/product-item.component.scss">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/orange-app/src/app/navigation/navigation.component.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/product-item/product-item.component.scss">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/test/test.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/models/product.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/product-item/product-item.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/product-item/product-item.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+        <state relative-caret-position="144">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/orange-app/src/app/products-list/products-list.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        <state relative-caret-position="1584">
+          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/products-list/products-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/navigation/navigation.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/orange-app/src/app/test.directive.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="19" column="87" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="87" />
+        <state relative-caret-position="672">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/models/product.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/app.component.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/product-item/product-item.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/product-item/product-item.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/products-list/products-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="66" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>

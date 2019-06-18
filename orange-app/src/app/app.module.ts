@@ -14,6 +14,7 @@ import { ProductItemComponent } from './product-item/product-item.component';
 import { HighlightDirective } from './highlight.directive';
 import { TestService } from './test.service';
 import { ProductService } from './product.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ProductService } from './product.service';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [TestService, ProductService],
   bootstrap: [AppComponent]

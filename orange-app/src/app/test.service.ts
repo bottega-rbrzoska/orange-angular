@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable, of, Subject } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
 
 @Injectable()
 export class TestService {
@@ -15,7 +16,7 @@ export class TestService {
   get showTest$() {
     return this.showTestSubject.asObservable();
   }
-  constructor() {
+  constructor( private http: HttpClient ) {
   }
   getShowTest() {
     return this.showTest;

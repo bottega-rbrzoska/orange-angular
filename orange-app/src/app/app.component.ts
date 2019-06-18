@@ -18,7 +18,6 @@ export class AppComponent {
   showTestContainer: boolean;
 
   constructor(private testService: TestService) {
-    this.showTestContainer = this.testService.getShowTest();
     this.testService.showTestObservable
       .pipe(
         tap(val => console.log(val)),

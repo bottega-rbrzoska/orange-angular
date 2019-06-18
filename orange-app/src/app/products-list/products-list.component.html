@@ -1,3 +1,5 @@
-<app-product-item *ngFor="let product of products"
+<app-product-item
+        [appTest]="{ hoverColor: 'lightblue', regularColor: 'gray'}"
+        *ngFor="let product of products"
         (delete)="handleDelete($event)"
         [product]="product"></app-product-item>

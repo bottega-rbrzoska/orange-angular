@@ -6,18 +6,23 @@ import { Directive, ElementRef, HostListener, Input, OnInit, Renderer2 } from '@
 export class TestDirective implements OnInit {
 
 
-  @Input() appTest = 'red';
+  @Input() appTest = {hoverColor: 'red', regularColor: 'white'};
   constructor(private el: ElementRef, private renderer: Renderer2) {
     this.renderer.addClass(this.el.nativeElement, 'd-block')
   }
 
   ngOnInit() {
-    this.renderer.setStyle(this.el.nativeElement, 'background', this.appTest)
+    this.renderer.setStyle(this.el.nativeElement, 'background', 'white')
   }
 
   @HostListener('mouseover')
-  handleClick() {
-    this.renderer.setStyle(this.el.nativeElement, 'background', 'blue')
+  handleM() {
+    this.renderer.setStyle(this.el.nativeElement, 'background', this.appTest.hoverColor)
+
+  }
+  @HostListener('mouseout')
+  handleMouseout() {
+    this.renderer.setStyle(this.el.nativeElement, 'background',  this.appTest.regularColor)
 
   }
 }

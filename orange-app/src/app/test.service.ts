@@ -4,13 +4,17 @@ import { Observable, Subject } from 'rxjs';
 @Injectable()
 export class TestService {
 
-  showTestSubject = new Subject<boolean>();
+  private showTestSubject = new Subject<boolean>();
   private showTest = true;
   showTestObservable = new Observable((observer) => {
     setTimeout(() => observer.next(true), 1000);
     setTimeout(() => observer.next(false), 2000);
     setTimeout(() => observer.next(true), 3000);
   });
+
+  get showTest$() {
+    return this.showTestSubject.asObservable();
+  }
   constructor() {
   }
   getShowTest() {
@@ -20,6 +24,10 @@ export class TestService {
   setShowTest(val) {
     console.log(val);
     this.showTest = val;
+  }
+
+  pushNewShowTest(val: boolean) {
+    this.showTestSubject.next(val);
   }
 
 }

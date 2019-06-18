@@ -27,7 +27,7 @@ export class AppComponent {
       )
       .subscribe(console.info);
     console.log('subject subscription')
-    this.testService.showTestSubject.subscribe(val => {
+    this.testService.showTest$.subscribe(val => {
       this.showTestContainer = val;
       console.log('From subject:' + val);
     })
@@ -35,9 +35,5 @@ export class AppComponent {
 
   testIncrementedHandler(counterValue) {
     alert('Counter: ' + counterValue)
-  }
-
-  pushValuesToTest() {
-    this.testService.showTestSubject.next(Math.random() < 0.5);
   }
 }

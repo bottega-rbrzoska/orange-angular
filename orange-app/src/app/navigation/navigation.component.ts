@@ -13,6 +13,6 @@ export class NavigationComponent implements OnInit {
   ngOnInit() {
   }
   toggleShowTest(val) {
-    this.testService.showTestSubject.next(val)
+    this.testService.pushNewShowTest(val)
   }
 }

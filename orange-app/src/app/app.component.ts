@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { TestService } from './test.service';
+import { filter, map, tap } from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
@@ -18,9 +19,25 @@ export class AppComponent {
 
   constructor(private testService: TestService) {
     this.showTestContainer = this.testService.getShowTest();
+    this.testService.showTestObservable
+      .pipe(
+        tap(val => console.log(val)),
+        filter( val => val === false),
+        map(val => val ? 'o k... true!!' : 'o w ch..... false!!')
+      )
+      .subscribe(console.info);
+    console.log('subject subscription')
+    this.testService.showTestSubject.subscribe(val => {
+      this.showTestContainer = val;
+      console.log('From subject:' + val);
+    })
   }
 
   testIncrementedHandler(counterValue) {
     alert('Counter: ' + counterValue)
+  }
+
+  pushValuesToTest() {
+    this.testService.showTestSubject.next(Math.random() < 0.5);
   }
 }

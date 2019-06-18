@@ -1,6 +1,6 @@
 <app-navigation></app-navigation>
 <router-outlet></router-outlet>
-{{showTestContainer}}
+<button (click)="pushValuesToTest()">Push random value to test</button>
 <div class="card" *ngIf="showTestContainer">
     <div class="card-header" [appTest] #appDirective="appTest">Tests</div>
     <div class="card-body">

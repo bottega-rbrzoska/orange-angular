@@ -7,19 +7,23 @@ import { Subscription } from 'rxjs';
   template: `<div>Counter: {{myCounter | currency}}</div>
   <input #myInput (keyup)="keyupHandler(myInput.value)">
   {{myInput.value | uppercase}}
+  {{testData$ | async | json}}
   <div>Updated: {{today | date:'medium'}}</div>
     <button class="btn btn-danger" (click)="incr()">Incr</button>
   `
 })
 export class TestComponent implements OnInit, OnDestroy {
   subscription: Subscription;
+  testData$;
 
   @Output() isIncremented = new EventEmitter();
 
   @Input() myCounter = 0;
   today = new Date();
   private _testNumVar: number | string;
-  constructor(testService: TestService) {
+  constructor(private testService: TestService) {
+    this.testData$ = this.testService.getTestDataFromApi$();
+    this.testService.refreshData();
     this.subscription = testService.showTest$.subscribe(() => console.log('log from test subscription'))
     console.log(this.myCounter)
   }

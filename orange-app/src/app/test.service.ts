@@ -1,11 +1,16 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable, of, Subject } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
+import { environment } from '../environments/environment';
+import { share } from 'rxjs/operators';
+
+const apiUrl = environment.apiUrl;
 
 @Injectable()
 export class TestService {
   private showTest = false;
   private showTestSubject = new BehaviorSubject<boolean>(this.showTest);
+  private testApiDataSubject = new BehaviorSubject<any[]>([]);
 
   showTestObservable = new Observable((observer) => {
     setTimeout(() => observer.next(true), 1000);
@@ -20,6 +25,14 @@ export class TestService {
   }
   getShowTest() {
     return this.showTest;
+  }
+
+  getTestDataFromApi$() {
+    return this.testApiDataSubject.asObservable();
+  }
+
+  refreshData() {
+    this.http.get<{val: number}[]>(`${apiUrl}/test`).subscribe(data => this.testApiDataSubject.next(data))
   }
 
   setShowTest(val) {

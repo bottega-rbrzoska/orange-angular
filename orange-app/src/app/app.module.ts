@@ -11,6 +11,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { TestComponent } from './test/test.component';
 import { TestDirective } from './test.directive';
 import { ProductItemComponent } from './product-item/product-item.component';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProductItemComponent } from './product-item/product-item.component';
     PageNotFoundComponent,
     TestComponent,
     TestDirective,
-    ProductItemComponent
+    ProductItemComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,

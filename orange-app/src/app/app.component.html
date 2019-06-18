@@ -1,9 +1,9 @@
 <app-navigation></app-navigation>
 <router-outlet></router-outlet>
 <div class="card">
-    <div class="card-header">Tests</div>
+    <div class="card-header" [appTest] #appDirective="appTest">Tests</div>
     <div class="card-body">
-
+        <button (click)="appDirective.changeBackground('blue')">Change background to blue</button>
         <app-test [myCounter]="initialValue" [ngClass]="{ 'active': isActive}"
                   (isIncremented)="testIncrementedHandler($event)"></app-test>
         <app-test [myCounter]="initialValue * 10"

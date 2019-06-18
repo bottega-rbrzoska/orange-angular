@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ProductService } from '../product.service';
+import { Product } from '../models/product';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  randomProducts: Product[] = [];
+  constructor(private productService: ProductService) {
+    this.productService.getRandomProducts().subscribe(prods => this.randomProducts = prods)
+
+    setInterval(() => {
+      this.productService.getRandomProducts().subscribe(prods => this.randomProducts = prods)
+    }, 5000)
+  }
 
   ngOnInit() {
   }

@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductFilterFormComponent implements OnInit {
 
+  formModel = {
+    text1: 'initial text',
+    select1: '1'
+  }
   constructor() { }
 
   ngOnInit() {

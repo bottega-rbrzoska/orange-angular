@@ -1,6 +1,6 @@
 <form #myForm="ngForm" (ngSubmit)="save(myForm)">
-    Text: <input type="text" name="text1" ngModel required maxlength="10">
-    Select: <select name="select1" ngModel>
+    Text: <input type="text" name="text1" [ngModel]="formModel.text1" required maxlength="10">
+    Select: <select name="select1" [ngModel]="formModel.select1">
     <option value="1">Jeden</option>
     <option value="2">Dwa</option>
 </select>

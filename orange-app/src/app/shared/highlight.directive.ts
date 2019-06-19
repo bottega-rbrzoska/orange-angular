@@ -5,7 +5,7 @@ import { Directive, Input, ElementRef, Renderer2, HostListener } from '@angular/
 })
 export class HighlightDirective {
 
-  @Input() secondClass;
+  @Input() appHighlightSecondClass;
   @Input() appHighlight;
   constructor(private el: ElementRef, private renderer: Renderer2) {
   }

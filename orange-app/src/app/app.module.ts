@@ -21,6 +21,7 @@ import { ProductReactiveFilterFormComponent } from './product-reactive-filter-fo
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { ContactService } from './contact.service';
 import { SharedModule } from './shared/shared.module';
+import { AuthGuard } from './auth.guard';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,7 @@ import { SharedModule } from './shared/shared.module';
     ReactiveFormsModule,
     SharedModule
   ],
-  providers: [TestService, ProductService, ContactService],
+  providers: [TestService, ProductService, ContactService, AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

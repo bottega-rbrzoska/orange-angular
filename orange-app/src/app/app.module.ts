@@ -16,6 +16,8 @@ import { TestService } from './test.service';
 import { ProductService } from './product.service';
 import { HttpClientModule } from '@angular/common/http';
 import { ProductFilterComponent } from './product-filter/product-filter.component';
+import { ProductFilterFormComponent } from './product-filter-form/product-filter-form.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -29,12 +31,14 @@ import { ProductFilterComponent } from './product-filter/product-filter.componen
     TestDirective,
     ProductItemComponent,
     HighlightDirective,
-    ProductFilterComponent
+    ProductFilterComponent,
+    ProductFilterFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [TestService, ProductService],
   bootstrap: [AppComponent]

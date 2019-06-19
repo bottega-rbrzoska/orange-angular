@@ -1,0 +1,17 @@
+<form #myForm="ngForm" (ngSubmit)="save(myForm)">
+    Text: <input type="text" name="text1" ngModel required maxlength="10">
+    Select: <select name="select1" ngModel>
+    <option value="1">Jeden</option>
+    <option value="2">Dwa</option>
+</select>
+  <button>Search</button>
+</form>
+<div>Dirty: {{myForm.dirty}}</div>
+<div>Pristine: {{myForm.pristine}}</div>
+<div>Touched {{myForm.touched}}</div>
+<div>Untouched {{myForm.untouched}}</div>
+<div>Valid {{myForm.valid}}</div>
+<div>Invalid {{myForm.invalid}}</div>
+<div>Errors:  {{myForm.errors | json}}</div>
+<div>Errors text:  {{myForm.controls['text1']?.errors | json}}</div>
+<div>Errors select:  {{myForm.controls['select1']?.errors | json}}</div>

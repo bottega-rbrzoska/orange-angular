@@ -11,8 +11,12 @@
             <label class="custom-control-label text-white" for="customCheck1">Show test container </label>
         </div>
         <div>
-            <button class="btn btn-outline-light">LogIn</button>
+            <ng-container *ngIf="!(isLoggedIn$ | async); else drugiButton">
+                <button  class="btn btn-outline-light" (click)="login()">LogIn</button>
+            </ng-container>
+            <ng-template #drugiButton>
+                <button class="btn btn-outline-danger" (click)="logout()">LogOut</button>
+            </ng-template>
         </div>
     </div>
 </nav>
-

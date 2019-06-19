@@ -17,13 +17,13 @@ export class ProductFilterComponent implements OnInit {
   }
 
   ngOnInit() {
-    combineLatest(
-      fromEvent(this.textSearch.nativeElement, 'keyup').pipe(map(e => e[ 'target' ].value), startWith('')),
-      fromEvent(this.select.nativeElement, 'change').pipe(map(e => e[ 'target' ].value), startWith(''))
-    ).pipe(
+    const text$ = fromEvent(this.textSearch.nativeElement, 'keyup').pipe(map(e => e[ 'target' ].value), startWith(''));
+    const select$ = fromEvent(this.select.nativeElement, 'change').pipe(map(e => e[ 'target' ].value), startWith(''))
+
+    combineLatest(text$, select$ ).pipe(
+      distinctUntilChanged(),
       debounceTime(400),
-      map(([ text, category ]) => ({ text, category })),
-      distinctUntilChanged()
+      map(([ text, category ]) => ({ text, category }))
     ).subscribe(val => this.filter.emit(val));
   }
 

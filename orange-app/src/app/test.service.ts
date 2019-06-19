@@ -9,7 +9,7 @@ const apiUrl = environment.apiUrl;
 @Injectable()
 export class TestService {
   private showTest = false;
-  private showTestSubject = new BehaviorSubject<boolean>(this.showTest);
+  private showTestSubject;
   private testApiDataSubject = new BehaviorSubject<any[]>([]);
 
   showTestObservable = new Observable((observer) => {
@@ -22,6 +22,7 @@ export class TestService {
     return this.showTestSubject.asObservable();
   }
   constructor( private http: HttpClient ) {
+    this.showTestSubject = new BehaviorSubject<boolean>(JSON.parse(localStorage.getItem('test')) || false)
   }
   getShowTest() {
     return this.showTest;
@@ -42,6 +43,7 @@ export class TestService {
 
   pushNewShowTest(val: boolean) {
     this.showTestSubject.next(val);
+    localStorage.setItem('test', val.toString())
   }
 
 }

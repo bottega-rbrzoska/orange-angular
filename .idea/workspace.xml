@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="04189964-0390-4dd3-9abe-3ed3bee5812c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orange-app/src/app/product-reactive-filter-form/product-reactive-filter-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/orange-app/src/app/product-reactive-filter-form/product-reactive-filter-form.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orange-app/src/app/product-reactive-filter-form/product-reactive-filter-form.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/orange-app/src/app/product-reactive-filter-form/product-reactive-filter-form.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orange-app/src/app/product-reactive-filter-form/product-reactive-filter-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/orange-app/src/app/product-reactive-filter-form/product-reactive-filter-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orange-app/src/app/products-list/products-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/orange-app/src/app/products-list/products-list.component.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,18 +13,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/orange-app/src/app/test.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orange-app/src/app/navigation/navigation.component.ts">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/orange-app/src/app/products-list/products-list.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+            <state>
+              <caret selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -72,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orange-app/src/app/product-reactive-filter-form/product-reactive-filter-form.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+            <state relative-caret-position="390">
+              <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -87,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/orange-app/src/app/product-reactive-filter-form/product-reactive-filter-form.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="351">
-              <caret line="27" column="90" selection-start-line="27" selection-start-column="86" selection-end-line="27" selection-end-column="90" />
+              <caret line="27" column="84" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="84" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -134,6 +120,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/orange-app/src/app/products-list/products-list.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="949">
+              <caret line="27" column="46" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -205,11 +203,11 @@
         <option value="$PROJECT_DIR$/orange-app/src/app/product-filter/product-filter.component.ts" />
         <option value="$PROJECT_DIR$/orange-app/src/app/home/home.component.ts" />
         <option value="$PROJECT_DIR$/orange-app/src/app/product-filter-form/product-filter-form.component.html" />
-        <option value="$PROJECT_DIR$/orange-app/src/app/products-list/products-list.component.html" />
         <option value="$PROJECT_DIR$/orange-app/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/orange-app/src/app/product-reactive-filter-form/product-reactive-filter-form.component.scss" />
         <option value="$PROJECT_DIR$/orange-app/src/app/product-reactive-filter-form/product-reactive-filter-form.component.html" />
         <option value="$PROJECT_DIR$/orange-app/src/app/product-reactive-filter-form/product-reactive-filter-form.component.ts" />
+        <option value="$PROJECT_DIR$/orange-app/src/app/products-list/products-list.component.html" />
       </list>
     </option>
   </component>
@@ -382,12 +380,12 @@
       <workItem from="1560753575314" duration="22414000" />
       <workItem from="1560829057653" duration="1292000" />
       <workItem from="1560831868544" duration="28738000" />
-      <workItem from="1560890678653" duration="18898000" />
+      <workItem from="1560890678653" duration="19013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71342000" />
+    <option name="totallyTimeSpent" value="71457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-1" width="1920" height="1080" extended-state="6" />
@@ -617,16 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/products-list/products-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/orange-app/db.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -711,13 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/products-list/products-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/orange-app/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
@@ -763,20 +744,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orange-app/src/app/product-reactive-filter-form/product-reactive-filter-form.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/orange-app/src/app/product-reactive-filter-form/product-reactive-filter-form.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
-          <caret line="27" column="90" selection-start-line="27" selection-start-column="86" selection-end-line="27" selection-end-column="90" />
+          <caret line="27" column="84" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="84" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/product-reactive-filter-form/product-reactive-filter-form.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/products-list/products-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="949">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/orange-app/src/app/products-list/products-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>

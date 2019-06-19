@@ -20,6 +20,7 @@ import { ProductFilterFormComponent } from './product-filter-form/product-filter
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ProductReactiveFilterFormComponent } from './product-reactive-filter-form/product-reactive-filter-form.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
+import { ContactService } from './contact.service';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,7 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [TestService, ProductService],
+  providers: [TestService, ProductService, ContactService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

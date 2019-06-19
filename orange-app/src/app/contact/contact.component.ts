@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { ContactService } from '../contact.service';
+import { ContactFormComponent } from '../contact-form/contact-form.component';
 
 @Component({
   selector: 'app-contact',
@@ -7,13 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+  @ViewChild(ContactFormComponent, { static: true}) contactFormComponent:ContactFormComponent;
+  constructor(private contactService: ContactService) { }
 
   ngOnInit() {
   }
 
   handleSendMessage(msg) {
-    console.log(msg)
+    this.contactService.sendMessage(msg)
+      .subscribe(() => this.contactFormComponent.contactForm.reset(),
+        (err) => alert('cos poszlo nie tak'));
   }
 
 }

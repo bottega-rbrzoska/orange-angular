@@ -32,6 +32,7 @@ export class ProductReactiveFilterFormComponent implements OnInit {
   }
 
   search() {
+    this.myForm.reset()
     console.log(this.myForm.getRawValue())
   }
 }

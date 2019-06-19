@@ -19,6 +19,7 @@ import { ProductFilterComponent } from './product-filter/product-filter.componen
 import { ProductFilterFormComponent } from './product-filter-form/product-filter-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ProductReactiveFilterFormComponent } from './product-reactive-filter-form/product-reactive-filter-form.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ProductReactiveFilterFormComponent } from './product-reactive-filter-fo
     HighlightDirective,
     ProductFilterComponent,
     ProductFilterFormComponent,
-    ProductReactiveFilterFormComponent
+    ProductReactiveFilterFormComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,

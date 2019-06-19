@@ -1,0 +1,9 @@
+<form [formGroup]="myForm" (ngSubmit)="search()">
+    Text: <input formControlName="text1">
+    Select: <select formControlName="select1">
+    <option value="1">Jeden</option>
+    <option value="2">Dwa</option>
+    </select>
+    <button>Search</button>
+</form>
+{{myForm.value | json}}

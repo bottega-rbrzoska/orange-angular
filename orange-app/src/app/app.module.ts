@@ -17,7 +17,8 @@ import { ProductService } from './product.service';
 import { HttpClientModule } from '@angular/common/http';
 import { ProductFilterComponent } from './product-filter/product-filter.component';
 import { ProductFilterFormComponent } from './product-filter-form/product-filter-form.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ProductReactiveFilterFormComponent } from './product-reactive-filter-form/product-reactive-filter-form.component';
 
 @NgModule({
   declarations: [
@@ -32,13 +33,15 @@ import { FormsModule } from '@angular/forms';
     ProductItemComponent,
     HighlightDirective,
     ProductFilterComponent,
-    ProductFilterFormComponent
+    ProductFilterFormComponent,
+    ProductReactiveFilterFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [TestService, ProductService],
   bootstrap: [AppComponent]

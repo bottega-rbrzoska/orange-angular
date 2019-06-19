@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class ProductFilterFormComponent implements OnInit {
 
   formModel = {
-    text1: 'initial text',
+    text1: 'initial',
     select1: '1'
   }
   constructor() { }
@@ -17,7 +17,11 @@ export class ProductFilterFormComponent implements OnInit {
   }
 
   save(form) {
-    console.log(form)
+   if(form.valid) {
+     console.log(this.formModel)
+   } else {
+     alert('popraw błendy')
+   }
   }
 
 }

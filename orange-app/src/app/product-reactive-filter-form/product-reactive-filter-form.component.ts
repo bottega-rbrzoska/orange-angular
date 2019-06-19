@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AbstractControl, FormControl, FormGroup, Validators } from '@angular/forms';
+import { AbstractControl, FormControl, FormGroup, ValidationErrors, ValidatorFn, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-product-reactive-filter-form',
@@ -11,7 +11,7 @@ export class ProductReactiveFilterFormComponent implements OnInit {
   myForm: FormGroup;
   constructor() {
     this.myForm = new FormGroup({
-      text1: new FormControl('initial', [Validators.required, Validators.maxLength(10)]),
+      text1: new FormControl('initial', [Validators.required, Validators.maxLength(10), this.badWordsValidator('dupa')]),
       select1: new FormControl('1')
     });
 
@@ -22,6 +22,10 @@ export class ProductReactiveFilterFormComponent implements OnInit {
         this.myForm.controls.select1.enable()
       }
     });
+  }
+
+  private badWordsValidator(badWord: string) : ValidatorFn {
+    return (control: AbstractControl) => control.value.includes(badWord) ? { badWord: true } : null;
   }
 
   ngOnInit() {

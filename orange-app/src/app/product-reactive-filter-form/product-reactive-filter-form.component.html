@@ -6,4 +6,11 @@
     </select>
     <button>Search</button>
 </form>
-{{myForm.value | json}}
+<div class="text-danger" *ngIf="myForm.invalid && myForm.dirty">
+  <div *ngIf="myForm.controls.text1.errors.badWord">Don't use bad words!</div>
+  <div *ngIf="myForm.controls.text1.errors.required">This field is required</div>
+  <div *ngIf="myForm.controls.text1.errors.maxlength">
+    Maximum length is {{myForm.controls.text1.errors.maxlength.requiredLength}}
+  You have {{myForm.controls.text1.errors.maxlength.actualLength - myForm.controls.text1.errors.maxlength.requiredLength}} to much</div>
+</div>
+{{myForm.controls.text1.errors | json}}

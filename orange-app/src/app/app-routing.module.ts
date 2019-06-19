@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'contact', component: ContactComponent },
   { path: 'products', component: ProductsListComponent },
+  { path: 'admin', loadChildren: () => import('./admin/admin.module').then(mod => mod.AdminModule)},
   { path: '**', component: PageNotFoundComponent }
 ];
 

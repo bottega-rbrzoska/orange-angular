@@ -13,7 +13,6 @@ export class ProductsListComponent implements OnInit {
 
   constructor(private productService: ProductService) {
     this.products$ = this.productService.products$;
-    this.productService.refreshProducts();
   }
 
   ngOnInit() {
@@ -24,7 +23,6 @@ export class ProductsListComponent implements OnInit {
   }
 
   handleFilter(filter) {
-
     this.productService.refreshProducts(filter);
   }
 

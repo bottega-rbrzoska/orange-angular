@@ -11,7 +11,6 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { TestComponent } from './test/test.component';
 import { TestDirective } from './test.directive';
 import { ProductItemComponent } from './product-item/product-item.component';
-import { HighlightDirective } from './highlight.directive';
 import { TestService } from './test.service';
 import { ProductService } from './product.service';
 import { HttpClientModule } from '@angular/common/http';
@@ -21,6 +20,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ProductReactiveFilterFormComponent } from './product-reactive-filter-form/product-reactive-filter-form.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { ContactService } from './contact.service';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -33,7 +33,6 @@ import { ContactService } from './contact.service';
     TestComponent,
     TestDirective,
     ProductItemComponent,
-    HighlightDirective,
     ProductFilterComponent,
     ProductFilterFormComponent,
     ProductReactiveFilterFormComponent,
@@ -44,7 +43,8 @@ import { ContactService } from './contact.service';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    SharedModule
   ],
   providers: [TestService, ProductService, ContactService],
   bootstrap: [AppComponent]

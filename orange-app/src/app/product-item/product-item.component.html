@@ -1,8 +1,11 @@
 <div class="card">
     <div class="card-header d-flex flex-row align-items-center justify-content-between">
         <div>{{product.name}} {{product.price | currency:'EUR'}}</div>
-        <button class="btn btn-warning"
-                (click)="deleteProduct()">Delete</button>
+        <div>
+            <span class="mr-5">{{product.category | titlecase}}</span>
+            <button class="btn btn-warning"
+                    (click)="deleteProduct()">Delete</button>
+        </div>
     </div>
 
 

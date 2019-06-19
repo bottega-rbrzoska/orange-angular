@@ -23,4 +23,9 @@ export class ProductsListComponent implements OnInit {
    console.log(id)
   }
 
+  handleFilter(filter) {
+
+    this.productService.refreshProducts(filter);
+  }
+
 }

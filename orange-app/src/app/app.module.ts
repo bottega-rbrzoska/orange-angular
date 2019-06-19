@@ -15,6 +15,7 @@ import { HighlightDirective } from './highlight.directive';
 import { TestService } from './test.service';
 import { ProductService } from './product.service';
 import { HttpClientModule } from '@angular/common/http';
+import { ProductFilterComponent } from './product-filter/product-filter.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { HttpClientModule } from '@angular/common/http';
     TestComponent,
     TestDirective,
     ProductItemComponent,
-    HighlightDirective
+    HighlightDirective,
+    ProductFilterComponent
   ],
   imports: [
     BrowserModule,

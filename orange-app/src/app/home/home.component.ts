@@ -9,6 +9,7 @@ import { Product } from '../models/product';
 })
 export class HomeComponent implements OnInit {
 
+  interval;
   randomProducts: Product[] = [];
   constructor(private productService: ProductService) {
     this.productService.getRandomProducts().subscribe(prods => this.randomProducts = prods)

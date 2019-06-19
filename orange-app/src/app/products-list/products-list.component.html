@@ -1,5 +1,10 @@
-<app-product-item
-        [appTest]="{ hoverColor: 'lightblue', regularColor: 'white'}"
-        *ngFor="let product of products$ | async"
-        (delete)="handleDelete($event)"
-        [product]="product"></app-product-item>
+<div>
+    <app-product-filter (filter)="handleFilter($event)"></app-product-filter>
+</div>
+<div class="p-3 mt-3">
+    <app-product-item
+            [appTest]="{ hoverColor: 'lightblue', regularColor: 'white'}"
+            *ngFor="let product of products$ | async"
+            (delete)="handleDelete($event)"
+            [product]="product"></app-product-item>
+</div>

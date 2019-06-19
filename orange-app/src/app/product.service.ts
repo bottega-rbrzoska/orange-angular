@@ -20,11 +20,14 @@ export class ProductService {
   constructor(private http: HttpClient) {
   }
 
-  refreshProducts() {
+  refreshProducts(filter: any = {}) {
+
     this.http.get<Product[]>(`${apiUrl}/products`, {
       params: {
         _page: '1',
-        _limit: '10'
+        _limit: '10',
+        ...filter.text && {q:filter.text },
+        ...filter.category && {category: filter.category}
       }
       }).subscribe(prods => this.productsSubject.next(prods));
   }

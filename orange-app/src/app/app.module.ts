@@ -3,25 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { NavigationComponent } from './navigation/navigation.component';
-import { ContactComponent } from './contact/contact.component';
-import { ProductsListComponent } from './products-list/products-list.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { TestComponent } from './test/test.component';
-import { TestDirective } from './test.directive';
-import { ProductItemComponent } from './product-item/product-item.component';
-import { TestService } from './test.service';
-import { ProductService } from './product.service';
 import { HttpClientModule } from '@angular/common/http';
-import { ProductFilterComponent } from './product-filter/product-filter.component';
-import { ProductFilterFormComponent } from './product-filter-form/product-filter-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { ProductReactiveFilterFormComponent } from './product-reactive-filter-form/product-reactive-filter-form.component';
-import { ContactFormComponent } from './contact-form/contact-form.component';
-import { ContactService } from './contact.service';
 import { SharedModule } from './shared/shared.module';
-import { AuthGuard } from './auth.guard';
+import { HomeComponent } from './main/home/home.component';
+import { PageNotFoundComponent } from './main/page-not-found/page-not-found.component';
+import { ContactComponent } from './main/contact/contact.component';
+import { NavigationComponent } from './main/navigation/navigation.component';
+import { ContactFormComponent } from './main/contact-form/contact-form.component';
+import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [
@@ -29,17 +20,12 @@ import { AuthGuard } from './auth.guard';
     HomeComponent,
     NavigationComponent,
     ContactComponent,
-    ProductsListComponent,
     PageNotFoundComponent,
     TestComponent,
-    TestDirective,
-    ProductItemComponent,
-    ProductFilterComponent,
-    ProductFilterFormComponent,
-    ProductReactiveFilterFormComponent,
     ContactFormComponent
   ],
   imports: [
+    CoreModule,
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
@@ -47,7 +33,6 @@ import { AuthGuard } from './auth.guard';
     ReactiveFormsModule,
     SharedModule
   ],
-  providers: [TestService, ProductService, ContactService, AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

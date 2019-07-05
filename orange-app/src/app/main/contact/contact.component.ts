@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { ContactService } from '../contact.service';
 import { ContactFormComponent } from '../contact-form/contact-form.component';
+import { ContactService } from '../../core/contact.service';
 
 @Component({
   selector: 'app-contact',

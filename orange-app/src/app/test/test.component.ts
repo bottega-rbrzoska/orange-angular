@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, OnDestroy, OnInit, Output } from '@angular/core';
-import { TestService } from '../test.service';
 import { Subscription } from 'rxjs';
+import { TestService } from '../core/test.service';
 
 @Component({
   selector: 'app-test',

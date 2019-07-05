@@ -1,8 +1,8 @@
-import { Component, ElementRef, EventEmitter, OnInit, Output, ViewChild } from '@angular/core';
-import { TestService } from '../test.service';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { fromEvent, Observable } from 'rxjs';
 import { map, take } from 'rxjs/operators';
-import { AuthService } from '../auth.service';
+import { TestService } from '../../core/test.service';
+import { AuthService } from '../../core/auth.service';
 
 @Component({
   selector: 'app-navigation',

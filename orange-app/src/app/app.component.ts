@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { TestService } from './test.service';
 import { filter, map, tap } from 'rxjs/operators';
+import { TestService } from './core/test.service';
 
 @Component({
   selector: 'app-root',
